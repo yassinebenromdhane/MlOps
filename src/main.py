@@ -3,7 +3,7 @@ import joblib
 import os
 
 # Load the trained model
-MODEL_PATH = './models/emotion_classifier_pipe_lr.pkl'
+MODEL_PATH = 'src/models/emotion_classifier_pipe_lr.pkl'
 model = joblib.load(MODEL_PATH)
 
 # Initialize Flask app
